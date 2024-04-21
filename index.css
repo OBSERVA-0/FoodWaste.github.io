@@ -1,0 +1,148 @@
+
+.navbar {
+    background-color: rgb(62, 84, 184);
+    display: flex;
+    justify-content: space-between; 
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .navbar a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .navbar a:hover {
+    box-shadow: 0px 0px 15px rgb(224, 224, 4);
+    transform: translateY(-20px);
+    background-color: rgb(0, 177, 231);
+    transition: all 0.3s ease;
+  }
+
+  /* .donate-button{
+    color: white;
+    border: 50px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+  }
+  .donate-button:hover{
+    background-color: rgb(53, 98, 74);
+  } */
+  .intro{
+    background-color: rgb(58, 136, 44);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center; 
+    font-size: 25px;
+  }
+
+  .Trivia{
+    background-color: rgb(58, 136, 44);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+.cause{
+    background-color: rgb(153, 30, 28);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+  }
+  /* .info{
+    background-color: rgb(58, 136, 44);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+  } */
+  /* footer{
+    background-color: rgb(8, 8, 10);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+} */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  } 
+  
+   footer p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ourwork {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: #f4f4f4; */
+  }
+  
+  .ourwork a {
+     background-color: white;
+     text-align: center;
+     text-decoration: gold;
+    color: #050404;
+    width: 30%;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 15px rgba(194, 17, 17, 0.852);
+    transition: all 0.3s ease;
+  }
+  
+  .ourwork a:hover {
+    box-shadow: 0px 0px 15px rgb(224, 224, 4);
+    transform: translateY(-20px);
+    background-color: lightgreen;
+  }
+  
+  /* .ourwork h2 {
+    margin-bottom: 0px;
+  }  */
+
+  .dark-mode {
+  background-color: black;
+    color: white
+  
+  }
+  /* #theme-button{
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    /* border-radius: 50%; Makes the button circular */
+    /* font-size: 10px; Adjust font size as needed */
+    /* width: 40px; Adjust width and height to make the button bigger or smaller */
+    /* height: 40px; */
+    /* background-color: #fbfbfb; Set background color to match the default background */
+    /* cursor: pointer;  */
+
+/* .nice{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+} */
