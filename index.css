@@ -1,4 +1,8 @@
-
+body{
+  background-color: aliceblue;
+  margin: 0PX;
+  padding:0px;
+}
 .navbar {
     background-color: rgb(62, 84, 184);
     display: flex;
@@ -37,9 +41,9 @@
   .intro{
     background-color: rgb(58, 136, 44);
     color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
+    /* padding: 20px;
+    margin: 20px; */
+     border-radius: 10px;
     text-align: center; 
     font-size: 25px;
   }
@@ -47,8 +51,8 @@
   .Trivia{
     background-color: rgb(58, 136, 44);
     color: white;
-    padding: 20px;
-    margin: 20px;
+    /* padding: 20px;
+    margin: 20px; */
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
@@ -56,8 +60,8 @@
 .cause{
     background-color: rgb(153, 30, 28);
     color: white;
-    padding: 20px;
-    margin: 20px;
+    /* padding: 20px;
+    margin: 20px; */
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
@@ -92,13 +96,13 @@ footer {
   } 
   
    footer p {
-    margin: 0;
-    padding: 0;
+    margin: 0PX;
+    padding: 0PX;
   }
 
   .ourwork {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     /* background-color: #f4f4f4; */
   }

@@ -1,18 +1,52 @@
+body{
+    background-color: rgb(112, 204, 112) (77, 114, 147);
+    margin: 0PX;
+    padding:0px;
+}
 .workintro {
     background-color: rgb(58, 136, 44);
     color: white;
-    padding: 20px;
-    margin: 20px;
+    /* padding: 20px;
+    margin: 20px; */
     border-radius: 10px;
     text-align: center; 
     font-size: 25px;
+}
+.nav{   
+    background-color: rgb(62, 84, 184);
+    display: flex;
+    justify-content: space-evenly; 
+    padding:20px;
+    margin: 0px;
+    text-align: center;
+}
+.nav a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav a:hover{
+    box-shadow: 0px 0px 15px rgb(224, 224, 4);
+    transform: translateY(-20px);
+    background-color: rgb(0, 177, 231);
+    transition: all 0.3s ease;
+}
+
+
+.h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(58, 136, 44);
 } 
 
 .donate {
     background-color: rgb(58, 136, 44);
     color: white;
-    padding: 20px;
-    margin: 20px;
+    /* padding: 20px;
+    margin: 20px; */
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
@@ -40,13 +74,19 @@
 #donateButton{
     background-color: rgb(254, 5, 5);
     color: white;
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 70px;
     text-align: center;
     font-size: 25px;
 }
+#donateButton:hover{
+    background-color: rgb(195, 118, 131);
+    cursor: pointer;
+    transform-box: border-box;
 
+}
 #thankYouModal {
     display: none;
     position: fixed;
@@ -87,4 +127,15 @@
             color: black;
             text-decoration: none;
             cursor: pointer;
+        }
+
+        .kids{
+            border-radius: 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .kids img{
+            border-radius: 10px;
+            text-align: center;
+            font-size: 25px;
         }

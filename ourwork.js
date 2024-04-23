@@ -58,7 +58,7 @@ var donateButton = document.getElementById('donateButton');
         // Add your own code here to handle the form data
     setTimeout(function() {
         thankYouModal.style.display = "none";
-    }, 5000);
+    }, 10000);
 }
 
     // closeThankYou.onclick = function() {
