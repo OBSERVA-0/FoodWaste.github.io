@@ -56,8 +56,11 @@ var donateButton = document.getElementById('donateButton');
         thankYouModal.style.display = "block";
         foodImage.src = "./IMAGES/FOOD.jpg" ; // Replace with the path to your image
         // Add your own code here to handle the form data
-    }
-
-    closeThankYou.onclick = function() {
+    setTimeout(function() {
         thankYouModal.style.display = "none";
-    }
+    }, 5000);
+}
+
+    // closeThankYou.onclick = function() {
+    //     thankYouModal.style.display = "none";
+    // }
