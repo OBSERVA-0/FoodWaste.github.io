@@ -67,3 +67,24 @@
     width: 30%;
     text-align: center;
 }
+@keyframes zoomInOut {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        #foodImage {
+            animation: zoomInOut 2s infinite;
+        }
+        #close, #closeThankYou {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        #close:hover, #close:focus, #closeThankYou:hover, #closeThankYou:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
