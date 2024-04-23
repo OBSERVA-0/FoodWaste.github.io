@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Work</title>
+    <link rel="stylesheet" href="ourwork.css">
+</head>
+<body>
+    <h1>Welcome to Our Work Page</h1>
+    
+    <section class = "workintro">
+    <p>Here you can find information about the work we do.</p>
+    <p> What effect it has on the people all over the world and how you can support us</p>
+    <p> We are a non-profit organization that aims to reduce food waste and loss</p>
+    <p> We work with local communities, businesses, and governments to promote sustainable practices</p>
+    <p> Our work includes raising awareness about the issue of food waste, providing resources and tools to reduce waste, 
+        and supporting initiatives that address food insecurity</p>
+        <p> We believe that everyone has a role to play in reducing food waste and ensuring that no one goes hungry</p>
+        <p> Join us in our mission to create a world where food is valued and shared, not wasted</p>
+        <p> Together, we can make a difference and ensure that no one goes hungry in a world of plenty</p>
+        <p> Get involve now by donating a small fund to help us in our goal</p>
+    </section>
+
+    <section class = "donate" >
+        <h2> Donate Now</h2>
+        <p> Your donation will help us continue our work to reduce food waste and loss</p>
+        <p> and support initiatives that address food insecurity</p>
+        <p> Every dollar counts and will make a difference in the lives of those in need</p>
+        <p> Thank you for your support</p>
+    </section>
+    <button id="donateButton">Donate Now</button>
+
+    <div id="donationForm">
+        <div id="donationFormContent">
+            <span id="close">&times;</span>
+            <h2>Donation Form</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date"><br>
+                <label for="age">Age:</label><br>
+                <input type="number" id="age" name="age"><br>
+                <label for="location">Location:</label><br>
+                <input type="text" id="location" name="location"><br>
+                <label for="donation">Donation Amount:</label><br>
+                <input type="number" id="donation" name="donation"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+    <div id="thankYouModal">
+        <div id="thankYouModalContent">
+            <span id="closeThankYou">&times;</span>
+            <h2>Thank You for Your Donation!</h2>
+            <p>Here's some delicious food to whet your appetite:</p>
+            <img id="foodImage" src="./IMAGES/FOOD.jpg" alt="Delicious food" style="width: 100%;">
+        </div>
+    </div>
+
+    <!-- Your content goes here -->
+    <script src="ourwork.js"></script>
+</body>
+</html>
