@@ -1,5 +1,5 @@
 body{
-  background-color: aliceblue;
+  background-color: rgb(200, 213, 220);
   margin: 0PX;
   padding:0px;
 }
@@ -39,29 +39,29 @@ body{
     background-color: rgb(53, 98, 74);
   } */
   .intro{
-    background-color: rgb(58, 136, 44);
-    color: white;
-    /* padding: 20px;
-    margin: 20px; */
+    background-color: rgb(236, 236, 236);
+    color: rgb(1, 1, 1);
+    padding: 20px;
+    margin: 20px;
      border-radius: 10px;
     text-align: center; 
     font-size: 25px;
   }
 
   .Trivia{
-    background-color: rgb(58, 136, 44);
-    color: white;
-    /* padding: 20px;
-    margin: 20px; */
+    background-color: rgb(236, 236, 236);
+    color: rgb(1, 1, 1);
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
   }
 .cause{
-    background-color: rgb(153, 30, 28);
-    color: white;
-    /* padding: 20px;
-    margin: 20px; */
+  background-color: rgb(236, 236, 236);
+  color: rgb(1, 1, 1);
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
     text-align: center;
     font-size: 25px;

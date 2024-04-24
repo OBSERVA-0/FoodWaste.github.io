@@ -1,13 +1,13 @@
 body{
-    background-color: rgb(112, 204, 112) (77, 114, 147);
-    margin: 0PX;
+    background-color:rgb(39, 163, 147);
+    margin: 0pX;
     padding:0px;
 }
 .workintro {
-    background-color: rgb(58, 136, 44);
+    background-color: rgba(255, 192, 203, 0.919);
     color: white;
-    /* padding: 20px;
-    margin: 20px; */
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
     text-align: center; 
     font-size: 25px;
@@ -43,10 +43,10 @@ body{
 } 
 
 .donate {
-    background-color: rgb(58, 136, 44);
+    background-color: rgba(255, 192, 203, 0.919);
     color: white;
-    /* padding: 20px;
-    margin: 20px; */
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
     text-align: center;
     font-size: 25px;
